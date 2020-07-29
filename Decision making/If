@@ -1,0 +1,17 @@
+#Syntax--->  if (condition):
+
+i=6
+
+if (i>=7): 
+    print("number is more than equal to 6")
+    
+    if (i>=5):
+        print("number is more than equal to 5")
+
+    else:
+        print("number is smaller than 5")   
+
+else:
+    print("number is less than 6") 
+
+    

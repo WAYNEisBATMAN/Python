@@ -1,0 +1,5 @@
+print("80 + 20 =",100 )
+digit=int(input("enter a digit  "))
+print("digit = ", digit)  
+print(">8", 9, 10,sep="\n>")
+input("Press any key")

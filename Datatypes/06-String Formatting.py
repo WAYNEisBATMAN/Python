@@ -41,11 +41,31 @@ Format Method ---> The format() method that is available with the string object 
                              Returntype : Returns a formatted string with the value passed as parameter in the 
                                           placeholder position.
 
+Strings in Python can be formatted with the use of format() which is very versatile and tool for formatting
+of Strings. Format method in String contains curly braces {} as placeholders which can hold arguments 
+according to position or keyword to specify the order.
 """
+
+#Syntax         String="{}{}{}{}".format(" "," "," "," ")
+#Default order
+a="{} {} {}".format("i","am","wayne")
+print(a)
+
+#Positional formatting
+a="{2} {1}{0}".format("i","am","wayne")
+print(a)
+
+#Keyword formatting
+a="{i}{j} {k}".format(j="i",i="am",k="wayne")
+print(a)
+
+#Here the 1st part which is in double quotes and curly braces inside is the string which
+#take its elements from arguments in .format() 
+#Do some changes in the 1st part affects in the string like space between the elements or
+#a line gap between them by using \n. 
 
  
 print("My number is {one} and my name is {two} , more number is {one}".format(one=name, two=age))
-
 
 
 

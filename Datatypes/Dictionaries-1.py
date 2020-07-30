@@ -1,10 +1,10 @@
 """
-Dictionary ---> In Python is an unordered collection of data values, used to store data values like a map, 
+Dictionary ---> Dictionary is an unordered collection of data values, used to store data values like a map, 
                 which unlike other data Types that hold only single value as an element,  holds key:value pair. 
 
-                key can be boolean,integer,string,float,tuple
-                values can be integer, string, float, tuple, boolean.
-                are identified by curly braces d={2:2, 3.5:3.5, "hey":"hey, (2,3):(3,30), true:true"}
+                keys and values both can be boolean,integer,string,float,tuple
+                
+                are identified by curly braces d={2:2, 3.5:3.5, "hey":"hey", (2,3):(3,30), true:true}
 
                 keys are case sensitive, same name but different cases of Key will be treated distinctly
 

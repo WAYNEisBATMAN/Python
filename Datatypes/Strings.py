@@ -1,13 +1,13 @@
 
 """
-----------------------------------------------------STRING DATATYPE----------------------------------------------
+---------------------------------------------------------STRING DATATYPE----------------------------------------------------------
 
 Strings are sequence of characters, either as a constant or some kind of variable.
 Strings are immutable. This means that elements of a string cannot be changed once they have been assigned. 
 We can simply reassign the same string to a different name.
 
 """
-#-----------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------------------
 
 """
 1. Creating string ---> Strings can be created by enclosing characters inside a single quote or double-quotes. 
@@ -20,17 +20,19 @@ b="5+3"
 print(a)
 print(b)
 
-#-----------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------
 
 """
-2. Accessing characters of strings in python
-   We can access individual characters using indexing or a range of characters using slicing.
+2. Accessing characters ---> Accessing characters of strings in python
+                             By using square brackets and index of characters.
+                             We can access individual characters by using square brackets and index of characters,
+                             or a range of characters using slicing.
 """
 
 c='wayne'
 print(c[1], c[0], c[4], c[-1]) 
 
-#-----------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------------------
 
 """
 3. String Slicing --->  We can also call out a range of characters from the string, we can do so by creating a slice, 
@@ -48,7 +50,7 @@ print(c[1], c[0], c[4], c[-1])
 d="iamwayneisbatman"
 print(d[:], d[1:], d[:-1], d[-5:-1], d[-5:-1:2])
 
-# ---------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------
 
 """
 
@@ -68,7 +70,7 @@ print('str1 + str2 = ', str1 + str2)                         # using +
 
 print('str1 * 3 =', str1 * 3)                                # using *
 
-#------------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------------------
 
 """
 5. Iterating/looping Through a String --->  We can iterate through a string using a for loop. 
@@ -92,22 +94,20 @@ print(count, "l's found in the given string", )
                                         Only new strings can be reassigned to the same name/variable.
 """
 
-#-------------------------------------Updating entire string----------------------------------------------------
+#---------------------------------------------------Updating entire string----------------------------------------------------
 
 e="old string"
 print(e)
 e="new string with same name"
 print(e)
 
-#-----------------------------------Deletion of entire string---------------------------------------------------
+#---------------------------------------------------Deletion of entire string---------------------------------------------------
 
+# Syntax: del string_name
 f="string"
 print(f)
 del f
-
-"""
-
-
+print(f) #Error will show --NameError: name 'f' is not defined
 
 
 

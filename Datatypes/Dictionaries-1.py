@@ -67,7 +67,7 @@ print(d1)
 d1[55] = 2
 print(d1)   
 
-d1[True] = False
+d1[True] = False                 
 print(d1)
 
 d1["true"] = "false"
@@ -112,6 +112,7 @@ print(W)
 
 DY={2:3,"the":"hell"}
 print(len(DY))
+
 
 
 

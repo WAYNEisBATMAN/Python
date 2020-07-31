@@ -72,7 +72,7 @@ print(x)
 """
 4. Sorting a list ---> There are two ways of sorting a list0 
                        1st is permanent sorting by using sort() or sort(inverse=True)
-
+ 
                        sort()     sorts list in ascending order
                        sort(reverse=True)    sorts in descending order
 

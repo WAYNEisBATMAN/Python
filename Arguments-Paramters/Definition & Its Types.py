@@ -8,7 +8,7 @@ From a function's perspective:
 
 ■ PARAMETER ---> A parameter is the variable listed inside the parentheses in the function definition.
                    
-■ ARGUMENTS ---> An argument is the value of the parameter/variable that are sent/given to the function when it is called. 
+■ ARGUMENT ---> An argument is the value of the parameter/variable that are sent/given to the function when it is called. 
 
 
 """
@@ -38,16 +38,59 @@ Arguments = Actual Arguments
 # -----------------------------------------------------------------------------------------------------------------------------------------
 
 """
--------------------------------------------------------Types Of Arguments-----------------------------------------------------------------
+-------------------------------------------------------Types Of Arguments and Paramters-----------------------------------------------------------------
 
-1) Positional Arguments : 
+https://getkt.com/blog/types-of-function-arguments-in-python/ 
+
+1) Default Argument
+
+def example(x=1, y=2, z="hello")     # function defintion
+    -----------
+    -----------
+
+example(x,y,z)                       # function call
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+2) Positional Arguments
+
+def example(x,y,z)                   # function defintion
+    -----------
+    -----------
+
+example(1,2,"hello")                 # function call
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+3) Keyword Arguments
+
+def example(x,y,z)                   # function defintion
+    -----------
+    -----------
+
+example(y=2, z="hello", x=1)         # function call
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+4) Positional or Keyword
+
+def example(x,y,z)                   # function defintion
+    -----------
+    -----------
+
+example(y=2, x=1, "hello")         # function call : Here x and y are keyword, z is positional arguments
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+5) Variable Positional (var-positional)
+   
 
 
 
-2) Keywords Arguments : Keyword arguments are passed by their names instead of their positions as opposed to positional arguments in the 
-                        function call. As a result we don’t have to mind about position of arguments when calling a function
 
-3) Default arguments : 
+
+Variable Keyword
+
+"""
+ 
+
 
 
 

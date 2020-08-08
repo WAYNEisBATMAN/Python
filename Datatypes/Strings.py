@@ -1,13 +1,13 @@
 
 """
----------------------------------------------------------STRING DATATYPE----------------------------------------------------------
+---------------------------------------------------------STRING DATATYPE------------------------------------------------------------------
 
 Strings are sequence of characters, either as a constant or some kind of variable.
 Strings are immutable. This means that elements of a string cannot be changed once they have been assigned. 
 We can simply reassign the same string to a different name.
 
 """
-#----------------------------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------
 
 """
 1. Creating string ---> Strings can be created by enclosing characters inside a single quote or double-quotes. 
@@ -20,7 +20,7 @@ b="5+3"
 print(a)
 print(b)
 
-#---------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------
 
 """
 2. Accessing characters ---> Accessing characters of strings in python

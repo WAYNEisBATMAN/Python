@@ -26,7 +26,6 @@ print("Hello %s! \nAre you %f years old?" %(name,age))
 
 print("Hello %s! \nAre you %.2f years old?" %(name,age))
 
-
 """
 Format Method ---> The format() method that is available with the string object is very versatile and powerful 
                    in formatting strings. 

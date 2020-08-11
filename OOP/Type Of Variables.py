@@ -13,21 +13,7 @@
      "text": "inside sub init\ndefinition3 is working\n"
     }
    ],
-   "source": [
-    "class SubClass():\n",
-    "\n",
-    "    def __init__(self):\n",
-    "        print(\"inside sub init\")\n",
-    "\n",
-    "    def definition3(self):\n",
-    "      print(\"definition3 is working\")\n",
-    "  \n",
-    "    def definition4(self):\n",
-    "      print(\"definiton4 is working\")\n",
-    "\n",
-    "S1=SubClass() \n",
-    "S1.definition3()\n"
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
@@ -50,16 +36,7 @@
      "execution_count": 2
     }
    ],
-   "source": [
-    "print(\"hello \\\n",
-    "world\")\n",
-    "\"\"\" \n",
-    "'\\' backslash is a special character also called as escape character.\n",
-    "can be used for many purposes like single backslash as a sign of continuation\n",
-    "\\n for new line\n",
-    "\\t for new tab\n",
-    "\"\"\""
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
@@ -75,12 +52,7 @@
      ]
     }
    ],
-   "source": [
-    "a=30\n",
-    "class asa:\n",
-    "        \n",
-    "type(a)"
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
@@ -113,14 +85,7 @@
      "text": "q\n"
     }
    ],
-   "source": [
-    "p=\"\\nTo edn this program press q\"\n",
-    "p += \"\\nenter your name\"\n",
-    "message = \"\"\n",
-    "while message != \"q\":\n",
-    "    message=input(p)\n",
-    "    print(message)"
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
@@ -141,15 +106,7 @@
      ]
     }
    ],
-   "source": [
-    "nums = [0, 1, 2, 1, 4, 1, 6, 1]\n",
-    "num =[2,3,4]\n",
-    "\n",
-    "\n",
-    "while 1 not in num:       \n",
-    "    nums.remove(1)\n",
-    "    print(nums)"
-   ]
+   "source": []
   },
   {
    "cell_type": "code",

@@ -71,6 +71,19 @@ It accepts the self-keyword as a first argument which allows accessing the attri
 """
 
 
+"""
+---------------------------------------------------Types Of Variables In OOPS----------------------------------------------------------------
+
+1)Instance Variables       ---> Which are defined inside a constructor definition and can differnt for each instance/object.
+                                It has local scope.
+
+2)Class(Static) Variables  ---> Which are defined inside a class but outside definitions and is same for each instance/object.
+                                It has global scope.
+
+
+"""
+
+
 
 
 

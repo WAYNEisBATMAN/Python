@@ -21,6 +21,7 @@ All functions have a built-in attribute,
 The method is a function that is associated with an object.
 
 
+
                                                        CLASS
 ==============================================================================================================================
 
@@ -82,8 +83,6 @@ It accepts the self-keyword as a first argument which allows accessing the attri
 
 
 """
-
-
 
 
 

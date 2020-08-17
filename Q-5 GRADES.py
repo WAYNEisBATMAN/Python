@@ -9,19 +9,19 @@ f. Above 80 - A
 Ask user to enter marks and print the corresponding grade.
 """
 
-#QUES SEEMS INCOMPLETE,IF MARKS ARE 25,45,50,60 IN WHICH GRADE THEY ARE CONSIDERED?
+# QUES SEEMS INCOMPLETE,IF MARKS ARE 25,45,50,60 IN WHICH GRADE THEY ARE CONSIDERED?
 
-M=int(input("Enter marks: "))
-if (M<25):
+M = int(input("Enter marks: "))
+if (M < 25):
     print("Grade is F")
-elif (M>=25 and M<=45):
-    print("Grade is E")   
-elif (M>=45 and M<=50):
+elif (M >= 25 and M <= 45):
+    print("Grade is E")
+elif (M >= 45 and M <= 50):
     print("Grade is D")
-elif (M>=50 and M<=60):
-    print("Grade is C")    
-elif (M>=60 and M<=80):
+elif (M >= 50 and M <= 60):
+    print("Grade is C")
+elif (M >= 60 and M <= 80):
     print("Grade is B")
 
 else:
-    print("Grade is A") 
+    print("Grade is A")

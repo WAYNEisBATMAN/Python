@@ -7,7 +7,16 @@ Numbers Pattern 3: Inverted Pyramid pattern with numbers
 4 4 
 5
 """
-.
+
+"""
+Print the following Number Pattern
+
+0 
+2 4 
+4 8 8 
+8 16 16 16
+"""
+
 # -------------------------------------------------------------------------------------------------------------------------------------
 """
 Number Pattern 8: Double the number

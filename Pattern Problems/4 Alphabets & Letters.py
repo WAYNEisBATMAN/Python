@@ -31,5 +31,3 @@ Equilateral triangle pattern with characters/alphabets
        P Q R S T U  
       V W X Y Z [ \  
 """
-
-

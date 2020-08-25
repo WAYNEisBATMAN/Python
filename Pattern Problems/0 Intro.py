@@ -15,7 +15,7 @@
 
 """
 
-# https://pynative.com/print-pattern-python-examples/
+# > https://pynative.com/print-pattern-python-examples/
 
 """
 -----------------------------------------THE PATTERN TO PRINT THE PATTERN USING FOR LOOP IN PYTHON-----------------------------------------
@@ -33,4 +33,4 @@ Outer loop tells us the number of rows used and the inner loop tells us the colu
 
 """
 
-# https://pynative.com/print-pattern-python-examples/
+# > https://pynative.com/print-pattern-python-examples/

@@ -5,35 +5,17 @@ Lists need not be homogeneous always which makes it a most powerful tool in Pyth
 A single list may contain different DataTypes like Integers, Strings, as well as Objects. 
 Lists are mutable, and hence, they can be altered even after their creation.
 
-■ List is An ordered set of values:
+List is An ordered set of values:
 
 1)Ordered: elements are assigned to index values in the list.
-
 2)Index: Always start with zero from left and -1 from right.
-
 3)Values: can be any datatype like integers, strings, other lists
-
 4)List values are called elements.
 
 A string is an ordered set of characters so it is “like” a list but not exactly the same thing.
 
-The list of all functions which can be use with Python Lists:
-['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', 
-'__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', 
-'__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', 
-'__ne__', '__new__', '__reduce__', '__reduce_ex__','__repr__', '__reversed__', '__rmul__',
- '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__',
- ■ All the following functions have a syntax as  
- listname.functionname()
- 'append', 
- 'clear'-- empty the list as [] on the other hand del listname will delete the list and the 
- list name is also become undefined. 
-
- 'copy', 'count', 'extend', 'index', 'insert', 
- 'pop', 'remove', 'reverse', 'sort']
-
 """
-print("\nLISTS")
+print("\n------------------------------------------LISTS------------------------------------------")
 
 """
 1. Accessing elements of a list ---> There are two ways to access elements from a list.
@@ -148,13 +130,29 @@ print(b)
                              
 
 """
-print("\nMerge/Join lists")
-x = [1,2,3,4,4]
-y = ["hello", 3,4,5,6,7]
+print("\nMerge/Join lists")    
+
+x = [1,2,3,4,4]                                # 1 concatenation
+y = ["hello", 3,4,5,6,7] 
 print(x+y)
 # or
 z = x + y
 print(z)
+
+
+x = [1,2,3,4,4]                                 # 2 append
+y = ["hello", 3,4,5,6,7]
+for z in y:
+    x.append(z)
+print(x)
+
+
+x = [1,2,3,4,4]                                 # 3 extend
+y = ["hello", 3,4,5,6,7]
+
+x.extend(y)
+print(x)
+
 
 #---------------------------------------------------------------------------------------------------------------
 

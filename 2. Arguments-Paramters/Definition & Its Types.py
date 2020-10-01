@@ -1,7 +1,7 @@
 """
 ----------------------------------------------DIFFERENCE B/W ARGUMENTS & PARAMETERS-------------------------------------------------------
 
-The terms parameter And argument argumentsan be used for the same thing: information that are passed into a function....
+The terms parameter And argument arguments canan be used for the same thing: information that are passed into a function....
 But there is major difference among them
 
 From a function's perspective:
@@ -12,27 +12,30 @@ From a function's perspective:
 
 
 """
-def example(x,y,z):   # Function definition
+
+
+def example(x, y, z):   # Function definition
     print(x+y+z)
 
-example(1,2,3)        # Function call  
+
+example(1, 2, 3)        # Function call
 
 # In  this example x,y,z are Parameters and 1,2,3 are Arguments.
 
-#-----------------------------------------------------------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------
 
 """
----------------------------------------------DIFFERENCE B/W ACTUAL & FORMAL PARAMETERS-------------------------------------------------------
+/ DIFFERENCE B/W ACTUAL & FORMAL PARAMETERS
 
-■ FORMAL PARAMETERS ---> A formal parameter is a parameter which is in the function definition.
+. FORMAL PARAMETERS ---> A formal parameter is a parameter which is in the function definition.
                          They are simply called parameters.
 
-■ ACTUAL PARAMETERS ---> An actual parameter is a parameter which is in the function call.
+. ACTUAL PARAMETERS ---> An actual parameter is a parameter which is in the function call.
                          They are simply called arguments.                         
  
-From all the above discussion we can say that  
-Parameters = Formal Arguments
-Arguments = Actual Arguments
+NOTE: From all the above discussion we can say that  
+      Parameters = Formal Arguments
+      Arguments = Actual Arguments
 
 """
 # -----------------------------------------------------------------------------------------------------------------------------------------
@@ -44,64 +47,87 @@ https://getkt.com/blog/types-of-function-arguments-in-python/
 """
 # 1) Default Arguments
 
-def example(x=1, y=2, z="hello")     # function defintion
-    -----------
-    -----------
 
-example(x,y,z)                       # function call
+def example(x=1, y=2, z="hello")     # function defintion
+
+
+-----------
+-----------
+
+
+example(x, y, z)                       # function call
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-#2) Positional Arguments
+# 2) Positional Arguments
 
-def example(x,y,z)                   # function defintion
-    -----------
-    -----------
 
-example(1,2,"hello")                 # function call
+def example(x, y, z)                   # function defintion
+
+
+-----------
+-----------
+
+
+example(1, 2, "hello")                 # function call
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 # 3) Keyword Arguments (Useful when we don't know the position of each parameter but actually know the name of it.)
 
-def example(x,y,z)                   # function defintion
-    -----------
-    -----------
+
+def example(x, y, z)                   # function defintion
+
+
+-----------
+-----------
+
 
 example(y=2, z="hello", x=1)         # function call
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 # 4) Positional or Keyword
 
-def example(x,y,z)                   # function defintion
-    -----------
-    -----------
 
-example(y=2, x=1, "hello")         # function call : Here x and y are keyword, z is positional arguments
+def example(x, y, z)                   # function defintion
+
+
+-----------
+-----------
+
+
+# function call : Here x and y are keyword, z is positional arguments
+example(y=2, x=1, "hello")
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# 5) Variable Length Positional (var-positional, args) 
+# 5) Variable Length Positional (var-positional, args)
 
-def example(x,y,z,*args)                   
-    print("Regular Positional Arguments", x,y,z)
-    print("Variable Length Positional arguments", args)
 
-example(1,2,3,4,5,6,7)
->>>Regular Positional Arguments 1 2 3 
-   Variable Length Positional arguments (4,5,6,7)
+def example(x, y, z, *args)
+
+
+print("Regular Positional Arguments", x, y, z)
+print("Variable Length Positional arguments", args)
+
+example(1, 2, 3, 4, 5, 6, 7)
+>> > Regular Positional Arguments 1 2 3
+Variable Length Positional arguments(4, 5, 6, 7)
 
 # 6) Variable Length Keyword  (kwargs)
 
-def example(x,y,z,**kwargs)                   
-    print("Regular Positional Arguments", x,y,z)
-    print("Variable Length Positional arguments", args)
 
-example(1,2,3, a=4, b=5, c=6, d=7)
->>>Regular Positional Arguments 1 2 3 
-   Variable Length Positional arguments {"a":4, "b":5, "c":6, "d":7}  
+def example(x, y, z, **kwargs)
 
 
- 
+print("Regular Positional Arguments", x, y, z)
+print("Variable Length Positional arguments", args)
+
+
+example(1, 2, 3, a=4, b=5, c=6, d=7)
+>> > Regular Positional Arguments 1 2 3
+Variable Length Positional arguments {"a": 4, "b": 5, "c": 6, "d": 7}
+
+
 """
 In detail about Variable Length Positional (var-positional, args) and Variable Length Keyword(kwargs)
 * is used as an unpacking operator 
@@ -137,17 +163,17 @@ https://www.geeksforgeeks.org/packing-and-unpacking-arguments-in-python/
 
 
 def addition(*number):
-    l=len(number)
+    l = len(number)
     i = 0
     sum = 0
-    while i<l :             
+    while i < l:
         sum = sum + number[i]
-        i=i+1
+        i = i+1
     print(number)
-    print("Total sum is =",sum)
+    print("Total sum is =", sum)
 
-addition(1,2,3,4)
 
+addition(1, 2, 3, 4)
 
 
 """
@@ -157,5 +183,3 @@ Applications and Important Points of packing & unpacking
 3. There are wrapper functions that require us to pass in variable arguments.
 4. Modification of arguments become easy, but at the same time validation is not proper, so they must be used with care.
 """
-
-

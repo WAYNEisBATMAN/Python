@@ -32,14 +32,27 @@ Star Pattern 3: Left Half-Pyramid Pattern with Star (asterisk)
   * * * * 
 * * * * *         
 """
+for i in range(6):
+    for j in range (6-i,0,-1):
+        print(" ", end=" ")
+    for j in range(i):
+        print("*", end=" ")
+    print(" ")
+
 
 """
 Star Pattern 4: Downward Half-Pyramid Pattern with Star (asterisk)
-      * * 
-    * * * 
-  * * * * 
-* * * * * 
+* * * * *  
+* * * *  
+* * *  
+* *  
+*
 """
+for i in range(6,0,-1):
+    for j in range(i):
+        print("*", end=" ")
+    print(" ")
+
 
 """
 Star Pattern 5: Print Right start Pattern with Star (asterisk)
